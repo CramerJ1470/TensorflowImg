@@ -76,6 +76,7 @@ const fileInputRef = useRef();
 const imageRef = useRef();
 const [imgData,setImgData ] = useState(null);
 const [predictions, setPredictions] = useState([]);
+const [isLoading,setLoading] = useState(false);
 
 const isEmptyPredictions = !predictions || predictions.length === 0;
 
@@ -124,6 +125,8 @@ const readImage = (file) => {
 };
 
 const onSelectImage = async (e) => {
+    setPredictions([]);
+    setLoading(true);
     const file = e.target.files[0];
     const imgData = await readImage(file);
     setImgData(imgData);
@@ -134,6 +137,7 @@ const onSelectImage = async (e) => {
     imageElement.onload = async () => {
         const imgSize = { width: imageElement.width,height: imageElement.height};
         await detectObjectOnImage(imageElement, imgSize);
+        setLoading(false);
 
     };
 };
@@ -153,7 +157,7 @@ const onSelectImage = async (e) => {
             ))}
             </DetectorContainer>
         <HiddenFileInput type="file" ref={fileInputRef} onChange={onSelectImage}/>
-        <SelectButton onClick={openFilePicker}>Select Image</SelectButton>
+        <SelectButton onClick={openFilePicker} >{isLoading ? "Recognizing..." : "Select Image"}</SelectButton>
     </ObjectDetectorContainer>
     
  )
