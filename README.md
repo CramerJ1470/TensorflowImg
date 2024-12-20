@@ -3,9 +3,9 @@
 
 ## Welcome to the TensorflowImg repository
 
-<p align="center" width="100%">
+<!-- <p align="center" width="100%">
   <img src="" alt="site"/>
-</p>
+</p> -->
 
 ## Table of contents
 - [Overview](#overview)
