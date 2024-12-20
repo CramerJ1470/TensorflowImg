@@ -77,9 +77,9 @@ This Project was created by these awesome dedicated members
 
 
 
- <a href="https://github.com/CramerJ1470" target="_blank">**John Cramer**</a>
+ <a href="https://github.com/CramerJ1470" target="_blank">**SillyNFTier-John Cramer**</a>
 <br />
-<a href= "https://youtu.be/SksXKCdeWkM?si=zzVVZIKcYeW2L17w" target="_blank">CoderOne Tutorial</a>
+<a href= "https://youtu.be/SksXKCdeWkM?si=zzVVZIKcYeW2L17w" target="_blank">**CoderOne Tutorial</a>
 #
 
 > ## Contributing to the project
