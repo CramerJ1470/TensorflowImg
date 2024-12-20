@@ -1,70 +1,97 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# TensorflowImg
 
-## Available Scripts
+## Welcome to the TensorflowImg repository
 
-In the project directory, you can run:
+<p align="center" width="100%">
+  <img src="" alt="site"/>
+</p>
 
-### `npm start`
+## Table of contents
+- [Overview](#overview)
+- [Technologies](#technologies)
+- [Requirements](#requirements)
+- [Setup the Project](#setup-the-project)
+- [Setup the Frontend](#setup-the-frontend)
+  - [Install Dependencies](#install-dependencies)
+- [Contributors](#contributors)
+- [Contributing to the project](#contributing-to-the-project)
+#
 
+
+
+## Overview
+<p align="justify">
+TensorFlowImg is a quick one hour tutorial project by CoderOne to set up an app that when you select one of your pictures, it will identify certain things in the image and console.log them out as predictions. You can Identify a Person, cats, furniture, cars,etc..... Not perfect in its operation , but a good start. At the end of the tutorial he mentions about setting up an AI with the need for huge memeory and processing , but while running it on your browser, its not being trained.
+</p>
+
+
+
+#
+
+
+
+
+> ## Technologies
+| <b><u>Stack</u></b> | <b><u>Usage</u></b> |
+| :------------------ | :------------------ |
+| **`Tensorflow`**    | AI     |
+| **`React JS`**      | Frontend            |
+#
+
+> ## Requirements
+#
+- Node JS
+#
+
+> ## Setup the Project
+**`*Note:`**
+
+<p align="justify">
+This project was setup on a windows 10 system using the gitbash terminal. Some of the commands used may not work with the VScode terminal, command prompt or powershell.
+</p>
+
+The steps involved are outlined below:-
+#
+
+
+ ## Setup the Frontend
+- First run the frontend on your local server to ensure it's fully functional before building for production.
+#
+
+> ### Install Dependencies
+- Setup and install dependencies
+ 
+```shell
+$ npm install 
+
+$ npm run start
+```
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> ## Contributors
 
-### `npm test`
+This Project was created by these awesome dedicated members
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ <a href="https://github.com/CramerJ1470" target="_blank">**John Cramer**</a>
+<br />
+<a href= "https://youtu.be/SksXKCdeWkM?si=zzVVZIKcYeW2L17w" target="_blank">CoderOne Tutorial</a>
+#
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> ## Contributing to the project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you find something worth contributing, please fork the repo, make a pull request and add valid and well-reasoned explanations about your changes or comments.
 
-### `npm run eject`
+Before adding a pull request, please note:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- This is an open source project.
+- Your contributions should be inviting and clear.
+- Any additions should be relevant.
+- New features should be easy to contribute to.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+All **`suggestions`** are welcome!
+#
