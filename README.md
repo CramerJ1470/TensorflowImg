@@ -22,7 +22,7 @@
 
 ## Overview
 <p align="justify">
-TensorFlowImg is a quick one hour tutorial project by CoderOne to set up an app that when you select one of your pictures, it will identify certain things in the image and console.log them out as predictions. You can Identify a Person, cats, furniture, cars,etc..... Not perfect in its operation , but a good start. At the end of the tutorial he mentions about setting up an AI with the need for huge memeory and processing , but while running it on your browser, its not being trained.
+TensorflowImg is a quick one hour tutorial project by CoderOne to set up an app that when you select one of your pictures, it will identify certain things in the image and console.log them out as predictions. You can Identify a Person, cats, furniture, cars,etc..... Not perfect in its operation , but a good start. At the end of the tutorial he mentions about setting up an AI with the need for huge memeory and processing , but while running it on your browser, its not being trained.
 </p>
 
 
